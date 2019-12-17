@@ -9,10 +9,10 @@ Note: Cross-platform-compile is not supported yet.
 ## example
 
 ```
-$ dart2native src/hello.dart
-# outputs: Generated: learn-dart/src/hello.exe
+$ dart2native hello-cli/bin/main.dart
+# outputs: Generated: learn-dart/hello-cli/bin/main.exe
 
-$ ./src/hello.exe
-# outputs: Hello, World!
+$ ./hello-cli/bin/main.exe
+# outputs: Hello world: 42!
 
 ```
