@@ -12,6 +12,7 @@ see:
 - A dart project is called "dart package".
 - Each "package" should contain a pubspec.yaml file .
 - Use "$ pub get" to install/update dependencies defined in "pubspec.yaml" .
+- dependencies are hosted here: https://pub.dev/
 
 ## package types (app - vs - library)
 
