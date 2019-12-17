@@ -20,10 +20,22 @@ A package is of type:
 - app 
 - library
 
-## intellij
+## create layout from intellij
 New Module ... -> "Dart" 
  - -> "Dart package" -> "OK"
  - -> "Dart Cli App" -> "OK"
+
+# create layout from cli (stagehand) 
+- stagehand is a project generator
+```
+# install stagehand (global)
+$ pub global activate stagehand
+
+# use stagehand
+$ mkdir foo && cd foo
+$ stagehand --help
+$ stagehand console-full
+```
 
 ## example (hello-cli app)
 
