@@ -2,12 +2,30 @@
 
 How to structure dart projects?
 
-## overview
+see:
+- https://medium.com/learn-dart/2-how-to-structure-a-dart-project-d5a55e66bfa1
+- https://dart.dev/tools/pub/package-layout
+- https://dart.dev/guides/libraries/create-library-packages
 
-A dart project is called "dart package".
-Each "package" should contain a pubspec.yaml file .
+## intro (dart package, pubspec.yaml)
 
-## example (cli app)
+- A dart project is called "dart package".
+- Each "package" should contain a pubspec.yaml file .
+- Use "$ pub get" to install/update dependencies defined in "pubspec.yaml" .
+
+## package types (app - vs - library)
+
+A package is of type:
+
+- app 
+- library
+
+## intellij
+New Module ... -> "Dart" 
+ - -> "Dart package" -> "OK"
+ - -> "Dart Cli App" -> "OK"
+
+## example (hello-cli app)
 
 ```
 hello-cli
@@ -28,13 +46,5 @@ $ dart2native hello-cli/bin/main.dart
 ```
 
 
-## intellij
-New Module ... -> "Dart" 
- - -> "Dart package" -> "OK"
- - -> "Dart Cli App" -> "OK"
 
-## docs
 
-- https://medium.com/learn-dart/2-how-to-structure-a-dart-project-d5a55e66bfa1
-- https://dart.dev/tools/pub/package-layout
-- https://dart.dev/guides/libraries/create-library-packages
