@@ -1,6 +1,6 @@
 # Compile to native
 
-Note: cross-platform-compile is not supported yet.
+Note: Cross-platform-compile is not supported yet.
 
 ## docs
 - https://dart.dev/tools/dart2native
