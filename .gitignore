@@ -4,6 +4,8 @@
 ### IDEA
 .idea
 
+### dart2native
+*.exe
 
 ### dart
 # See https://www.dartlang.org/guides/libraries/private-files
