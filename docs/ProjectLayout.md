@@ -7,10 +7,31 @@ How to structure dart projects?
 A dart project is called "dart package".
 Each "package" should contain a pubspec.yaml file .
 
+## example (cli app)
+
+```
+hello-cli
+    bin
+        main.dart
+        main.exe
+    lib
+        hello_cli.dart
+    test
+        hello_cli_test.dart
+
+    pubspec.yaml
+```
+```
+# compile native
+$ dart2native hello-cli/bin/main.dart
+# Generated: hello-cli/bin/main.exe
+```
+
+
 ## intellij
-New Module ... -> "Dart" -> "Dart package" -> "OK"
-
-
+New Module ... -> "Dart" 
+ - -> "Dart package" -> "OK"
+ - -> "Dart Cli App" -> "OK"
 
 ## docs
 
